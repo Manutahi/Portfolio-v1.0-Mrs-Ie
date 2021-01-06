@@ -1,0 +1,55 @@
+body{
+    background-image: url(IMG/th.jpeg) ;
+    background-size: cover;
+    background-position-x: center;
+    background-attachment: fixed;
+    background-repeat:no-repeat
+}
+h1{
+    color:rgb(255, 251, 0);
+}
+.titre{
+    border:double 1px blueviolet;
+    background-color: rgb(184, 0, 0);
+    border-width: 10px;
+    padding:1px;
+}
+
+.pre{
+    border:double 1px blueviolet;
+    background-color: rgb(255, 238, 0);
+    border-width: 10px;
+    padding:1px;
+}
+
+.parcours{
+    border:double 1px blueviolet;
+    background-color: rgb(57, 155, 0);
+    border-width: 10px;
+    padding:1px;
+}
+
+#header{
+    border: 1px solid red;
+    display: flex;
+}
+
+#gauche{
+    border: 1px solid black;
+}
+
+#droite{
+    border-left: 1px solid rgb(0, 0, 0);
+    text-align: center;
+    width:75%;
+    padding-left: 100px;
+}
+
+#footer{
+    border: 1px solid rgb(0, 0, 0);
+}
+
+#bloc_parcour{
+    border: 1px solid rgb(0, 0, 0);
+    text-align: center;
+}
